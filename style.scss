@@ -144,3 +144,75 @@ nav h1 {
     margin-left: 10rem;
     margin-top: 0;
 }
+
+@media screen and (min-width: 834px) {
+
+.logoButton {
+  display: none;
+}
+
+nav {
+  display: none;
+}
+
+.spacing2 {
+  margin-left: 7rem;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.HeroText {
+  margin-right: 26rem;
+  position: relative;
+  left: 7rem;
+}
+
+.parrot {
+  position: relative;
+  right: 3rem;
+}
+
+.spacing3 {
+  margin-left: 28rem;
+}
+
+.secondText {
+  margin-right: 27rem;
+  position: relative;
+  left: 19rem;
+}
+
+.spacing4 {
+  margin-left: 28rem;
+}
+
+.spacing5 {
+  margin-left: 20rem;
+}
+
+.rose {
+  display: none;
+}
+
+.thirdText {
+  margin-right: 36rem;
+  position: relative;
+  left: 9rem;
+}
+
+.fourthText {
+  margin-right: 26rem;
+  position: relative;
+  left: 10rem;
+}
+
+
+
+
+
+
+    
+}
