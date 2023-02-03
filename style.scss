@@ -3,15 +3,14 @@ body {
   padding: 0;
 }
 
-.spacing1 {
-  margin-left: 1rem;
-  width: 16px;
-  height: 16px;
+@font-face {
+  font-family: KyivTypeSans;
+  src: url(/Fonts/KyivTypeSans-Bold.otf);
 }
 
-.spacing {
-  width: 16px;
-  height: 16px;
+@font-face {
+  font-family: KyivTypeSerif;
+  src: url(/Fonts/KyivTypeSerif-Regular.otf);
 }
 
 header {
@@ -29,6 +28,7 @@ header {
 }
 
 .logoText {
+  font-family: KyivTypeSans ;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -39,6 +39,7 @@ header {
 }
 
 .logoButton {
+  font-family: KyivTypeSans;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -74,6 +75,7 @@ nav div {
 }
 
 nav h1 {
+  font-family: KyivTypeSans;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -82,13 +84,8 @@ nav h1 {
     padding-bottom: 2rem;
 }
 
-.spacing2 {
-    width: 16px;
-    height: 64px;
-    margin-left: 1rem;
-}
-
 .HeroText {
+  font-family: KyivTypeSerif;
     font-style: normal;
     font-weight: 350;
     font-size: 33px;
@@ -109,29 +106,12 @@ nav h1 {
   display: none;
 }
 
-.line {
-  display: none;
-}
-
-.redLine {
-  display: none;
-}
-
-.spacingTablet {
-  display: none;
-}
-
 .backgroundColor {
     background-color: yellow;
 }
 
-.spacing3 {
-    width: 16px;
-    height: 80px;
-    margin-left: 9rem;
-}
-
 .secondText {
+  font-family: KyivTypeSerif;
     font-style: normal;
     font-weight: 350;
     font-size: 16px;
@@ -141,13 +121,8 @@ nav h1 {
     margin-top: 0;
 }
 
-.spacing4 {
-    width: 16px;
-    height: 80px;
-    margin-left: 9rem;
-}
-
 .thirdText {
+  font-family: KyivTypeSerif;
     font-style: normal;
     font-weight: 350;
     font-size: 16px;
@@ -155,12 +130,6 @@ nav h1 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 1rem;
-}
-
-.spacing5 {
-    width: 16px;
-    height: 80px;
-    margin-left: 4rem;
 }
 
 .container {
@@ -173,6 +142,7 @@ nav h1 {
 }
 
 .fourthText {
+  font-family: KyivTypeSerif;
     font-style: normal;
     font-weight: 350;
     font-size: 16px;
@@ -199,10 +169,6 @@ nav {
   display: none;
 }
 
-.spacing2 {
-  margin-left: 7rem;
-}
-
 .section1 {
   display: flex;
   flex-direction: row;
@@ -214,34 +180,24 @@ nav {
   left: 7rem;
 }
 
+.backgroundColor {
+  background-color: white;
+}
+
+.backgroundColor2 {
+  background-color: yellow;
+}
+
 .parrot {
   display: block;
   position: relative;
   right: 3rem;
 }
 
-.spacingTablet {
-  display: block;
-  width: 16px;
-  height: 16px;
-}
-
-.spacing3 {
-  margin-left: 28rem;
-}
-
 .secondText {
   margin-right: 27rem;
   position: relative;
   left: 19rem;
-}
-
-.spacing4 {
-  margin-left: 28rem;
-}
-
-.spacing5 {
-  margin-left: 20rem;
 }
 
 .rose {
@@ -270,18 +226,8 @@ nav {
   line-height: 58px;
 }
 
-.spacingDesktop {
-  width: 16px;
-  height: 80px;
-  margin-left: -1rem
-}
-
-.spacing2 {
-  height: 128px;
-}
-
-.spacingTablet {
-  display: none;
+.backgroundColor {
+  background-color: yellow;
 }
 
 .parrot {
@@ -290,10 +236,6 @@ nav {
 
 .bird {
   display: block;
-}
-
-.spacing3 {
-  display: none;
 }
 
 .section2 {
@@ -308,10 +250,6 @@ nav {
   left: 0;
 }
 
-.spacing4 {
-  margin-left: 0;
-}
-
 .container {
   gap: 0rem;
 }
@@ -322,9 +260,6 @@ nav {
   left: 0;
 }
 
-.spacing5 {
-  margin-left: 0;
-}
 
 .fourthText {
   margin-left: 0;
@@ -339,15 +274,8 @@ nav {
 
 }
 
-.line {
-  display: block;
-  position: relative;
-  left: 14rem;
-  width: 1px;
-  height: 120px;
-}
-
 .buy {
+  font-family: KyivTypeSans;
   display: block;
   color: #FFF500;
   text-transform: uppercase;
@@ -370,25 +298,6 @@ nav {
 .container2 {
   display: flex;
   flex-direction: column;
-}
-
-.spacing4 {
-  display: none;
-}
-
-.spacing5 {
-  display: none;
-}
-
-.spacing6 {
-  width: 16px;
-  height: 16px;
-}
-
-.redLine {
-  display: block;
-  width: 120px;
-  height: 10px;
 }
 
 .container3 {
@@ -414,6 +323,7 @@ nav {
 }
 
 .cookies p {
+  font-family: KyivTypeSans;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -449,7 +359,7 @@ nav {
   color: #FFF500;
   position: relative;
   left: 22rem;
-  top: 9rem;
+  top: 7rem;
 }
 
 footer {
@@ -468,6 +378,7 @@ footer {
 }
 
 .container4 h3 {
+  font-family: KyivTypeSerif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -477,6 +388,7 @@ footer {
 }
 
 .container4 input {
+  font-family: KyivTypeSans;
   width: 230px;
   height: 28px;
   background-color: white;
@@ -488,6 +400,7 @@ footer {
 }
 
 .container4 button {
+  font-family: KyivTypeSans;
   width: 109px;
   height: 28px;
   background-color: #B30044;
