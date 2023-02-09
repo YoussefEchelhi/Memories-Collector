@@ -362,6 +362,8 @@ nav {
 }
 
 .rejectBtn {
+  font-family: KyivTypeSans-Regular;
+  text-transform: uppercase;
   width: 109px;
   height: 28px;
   background-color: #FF4B93;
@@ -376,6 +378,8 @@ nav {
 }
 
 .acceptBtn {
+  font-family: KyivTypeSans-Regular;
+  text-transform: uppercase;
   width: 109px;
   height: 28px;
   background-color: #B30044;
@@ -445,17 +449,14 @@ footer {
 }
 
 .container5 {
-  background-color: black;
+  display: block;
+  background-color: #000000cf;
   width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
   z-index: 2;
-  opacity: 0.8;
-}
 
-.container5 {
-  display: block;
 }
 
 .container5.none {
