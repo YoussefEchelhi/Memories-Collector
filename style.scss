@@ -5,12 +5,17 @@ body {
 
 @font-face {
   font-family: KyivTypeSans;
-  src: url(/Fonts/KyivTypeSans-Bold.otf);
+  src: url(Fonts/KyivTypeSans-Bold.otf);
 }
 
 @font-face {
   font-family: KyivTypeSerif;
-  src: url(/Fonts/KyivTypeSerif-Regular.otf);
+  src: url(Fonts/KyivTypeSerif-Regular.otf);
+}
+
+@font-face {
+  font-family: KyivTypeSans-Regular;
+  src: url(Fonts/KyivTypeSans-Regular.otf);
 }
 
 header {
@@ -125,7 +130,7 @@ nav h1 {
 }
 
 .secondText {
-  font-family: KyivTypeSerif;
+  font-family: KyivTypeSans-Regular;
     font-style: normal;
     font-weight: 350;
     font-size: 16px;
@@ -136,7 +141,7 @@ nav h1 {
 }
 
 .thirdText {
-  font-family: KyivTypeSerif;
+  font-family: KyivTypeSans-Regular;
     font-style: normal;
     font-weight: 350;
     font-size: 16px;
@@ -156,7 +161,7 @@ nav h1 {
 }
 
 .fourthText {
-  font-family: KyivTypeSerif;
+  font-family: KyivTypeSans-Regular;
     font-style: normal;
     font-weight: 350;
     font-size: 16px;
@@ -345,7 +350,7 @@ nav {
 }
 
 .cookies p {
-  font-family: KyivTypeSans;
+  font-family: KyivTypeSans-Regular;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -401,7 +406,7 @@ footer {
 }
 
 .container4 h3 {
-  font-family: KyivTypeSerif;
+  font-family: KyivTypeSans-Regular;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -411,7 +416,7 @@ footer {
 }
 
 .container4 input {
-  font-family: KyivTypeSans;
+  font-family: KyivTypeSans-Regular;
   width: 230px;
   height: 28px;
   background-color: white;
@@ -447,6 +452,10 @@ footer {
   top: 0;
   z-index: 2;
   opacity: 0.8;
+}
+
+.container5 {
+  display: block;
 }
 
 .container5.none {
