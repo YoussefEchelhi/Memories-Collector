@@ -117,6 +117,8 @@ nav h1 {
     top: 64px;
     width: 284px;
     height: 204px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .parrot {
@@ -219,29 +221,29 @@ nav {
 }
 
 .HeroText {
-  margin-right: 26rem;
-  position: relative;
-  left: 7rem;
+  left: 122px;
+  max-width: 206px;
+  height: 430px;
 }
 
 .backgroundColor {
-  background-color: white;
+  background-color: yellow;
 }
 
 .backgroundColor2 {
-  background-color: yellow;
+  background-color: white;
 }
 
 .parrot {
   display: block;
   position: relative;
-  right: 3rem;
+  left: 230px;
+  top: 16px;
 }
 
 .secondText {
-  margin-right: 27rem;
   position: relative;
-  left: 19rem;
+  left: 427px;
 }
 
 .rose {
@@ -251,13 +253,15 @@ nav {
 .thirdText {
   margin-right: 36rem;
   position: relative;
-  left: 9rem;
+  left: 119px;
+  top: 0px;
 }
 
 .fourthText {
   margin-right: 26rem;
   position: relative;
-  left: 10rem;
+  left: 324px;
+  top: 112px;
 }
 
 .container5 {
