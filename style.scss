@@ -273,10 +273,14 @@ nav {
 @media screen and (min-width: 1512px) {
 
 .HeroText {
-  margin-right: 38rem;
+  max-height: none;
+  max-width: none;
+  width: 418px;
   font-size: 48px;
   line-height: 58px;
+  top: 115px;
 }
+
 
 .backgroundColor {
   background-color: yellow;
@@ -287,6 +291,8 @@ nav {
 }
 
 .bird {
+  position: absolute;
+  right: 0;
   display: block;
 }
 
@@ -296,10 +302,11 @@ nav {
 }
 
 .secondText {
-  margin-left: 6rem;
-  margin-right: 8rem;
   position: relative;
-  left: 0;
+  left: 141px;
+  top: -66px;
+  width: 353px;
+  height: 135px;
 }
 
 .container {
@@ -307,18 +314,24 @@ nav {
 }
 
 .thirdText {
-  margin-right: 16rem;
   position: relative;
-  left: 0;
+  left: 240px;
+  margin-right: 0;
+  width: 356px;
+  height: 155px;
+  top: -140px;
+
 }
 
 
 .fourthText {
   margin-left: 0;
-  margin-right: 16rem;
+  margin-right: 0;
   position: relative;
-  left: 0;
+  top: -70px;
   font-weight: 700;
+  width: 229px;
+  height: 163px;
 }
 
 .purpleText {
